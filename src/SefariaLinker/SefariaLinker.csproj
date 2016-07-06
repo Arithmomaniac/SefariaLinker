@@ -37,11 +37,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Content\SefariaLinker.css">
+      <DependentUpon>SefariaLinker.less</DependentUpon>
+    </Content>
+    <Content Include="Content\SefariaLinker.min.css">
+      <DependentUpon>SefariaLinker.css</DependentUpon>
+    </Content>
+    <Content Include="Content\SefariaLinker.less" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
+    <None Include="scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="scripts\bootstrap.js" />
+    <Content Include="scripts\jquery-1.9.1.js" />
     <Content Include="scripts\SefariaLinker.js" />
     <Content Include="SefariaLinker.html" />
     <Content Include="test\SefariaLinker_Test.html" />
     <Content Include="test\tests.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
