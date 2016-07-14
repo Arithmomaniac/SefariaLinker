@@ -1,0 +1,1 @@
+﻿QUnit.test("Stub", assert => { assert.equal(true, false, "Fail") });

@@ -1,1 +1,2 @@
-﻿QUnit.test("Stub", function(assert) { assert.equal(true, false, "Fail") });
+QUnit.test("Stub", function (assert) { assert.equal(true, false, "Fail"); });
+//# sourceMappingURL=tests.js.map
